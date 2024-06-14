@@ -1,0 +1,10 @@
+train:
+  - /content/yolov9/flower/autosplit_train.txt
+val:
+  - /content/yolov9/flower/autosplit_val.txt
+test:
+  - /content/yolov9/flower/autosplit_test.txt
+
+nc: 8
+
+names: ['Lotus','Daisy','Lilly','Tulip','dandelion','Orchid','rose','Sunflower']
